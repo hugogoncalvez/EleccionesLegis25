@@ -306,7 +306,7 @@ export const getAllDipResults = async (req, res) => {
                 {
                     model: LemasModel, // Incluir LemasModel
                     as: 'lema_model', // Usar el alias definido en DipModel
-                    attributes: ['partido'] // Incluir el nombre del partido
+                    attributes: ['partido', 'candidato'] // Incluir el nombre del partido
                 }
             ],
             order: [

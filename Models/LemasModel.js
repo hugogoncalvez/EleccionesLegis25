@@ -5,6 +5,7 @@ import { DataTypes } from "sequelize";
 const LemasModel = db.define('lemas', {
     numero: { type: DataTypes.STRING },
     partido: { type: DataTypes.STRING },
+    candidato: { type: DataTypes.STRING }
 })
 
 
