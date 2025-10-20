@@ -393,6 +393,7 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
         display: flex !important;
         flex-direction: row !important;
         justify-content: space-between !important;
+        flex-wrap: nowrap !important;
         width: 80%;
         margin: 4px auto !important;
     }
@@ -440,7 +441,7 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
         flex-grow: 0; /* Let height be defined by content */
         display: grid;
         place-content: center;
-        padding: 10px 0 !important;
+        padding: 2px 0 !important; /* Reduced padding */
     }
 
     #print-cards .MuiCardContent-root .MuiTypography-root {
