@@ -419,8 +419,8 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
         border: 2px solid #0D3C52 !important;
         box-shadow: none !important;
         page-break-inside: avoid !important;
-        width: 15% !important;
-        max-width: 15% !important;
+        width: 45% !important;
+        max-width: 55% !important;
         display: flex;
         flex-direction: column;
     }
@@ -465,17 +465,17 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
         margin-bottom: 0;
     }
 
-        #print-chart img {
+    #print-chart img {
 
-            width: 55% !important;
+        width: 55% !important;
 
-            height: auto !important;
+        height: auto !important;
 
-            margin: 10px auto;
+        margin: 10px auto;
 
-            display: block;
+        display: block;
 
-        }
+    }
 
     /* Table section */
     #print-table {
@@ -509,21 +509,25 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
         padding-right: 10px !important;
     }
 
-        #print-table tbody tr:nth-last-child(-n+4) { /* Last 4 rows: others */
+    #print-table tbody tr:nth-last-child(-n+4) {
+        /* Last 4 rows: others */
 
-             font-style: italic; /* Replaced background-color with italic for distinction */
+        font-style: italic;
+        /* Replaced background-color with italic for distinction */
 
-        }
+    }
 
-        #print-table tbody tr:last-child { /* Last row: total */
+    #print-table tbody tr:last-child {
+        /* Last row: total */
 
-            font-weight: bold !important;
+        font-weight: bold !important;
 
-            font-size: 11pt !important;
+        font-size: 11pt !important;
 
-            border-top: 2px solid #333 !important; /* Added border for separation */
+        border-top: 2px solid #333 !important;
+        /* Added border for separation */
 
-        }
+    }
 
     /* Force color printing */
     * {
