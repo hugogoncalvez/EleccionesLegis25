@@ -427,18 +427,24 @@ https://sweetalert2.github.io/#ajax-request`),b8(e),typeof e.title=="string"&&(e
 
     #print-cards .MuiCard-root>div:first-of-type {
         /* Header of card */
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    #print-cards .MuiDivider-root {
+        margin: 2px auto !important;
+        width: 80% !important;
     }
 
     #print-cards .MuiCardContent-root {
-        flex-grow: 1;
+        flex-grow: 0; /* Let height be defined by content */
         display: grid;
         place-content: center;
+        padding: 10px 0 !important;
     }
 
     #print-cards .MuiCardContent-root .MuiTypography-root {
-        font-size: 42pt !important;
+        font-size: 38pt !important;
         font-weight: bold !important;
         color: #bf0a0d !important;
     }
