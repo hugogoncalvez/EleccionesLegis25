@@ -34,13 +34,13 @@ app.use('/', Routes, express.static(path.join(__dirname, 'dist')));
         console.log(`No se pudo conectar a la DB: ${error}`);
     }
 
-    try {
-        // Sincroniza los modelos con la base de datos
-        await db.sync(); // Esto aplicará las asociaciones y creará las tablas si no existen
-        console.log('Modelos sincronizados con éxito');
-    } catch (error) {
-        console.log(`Error al sincronizar los modelos: ${error}`);
-    }
+    // try {
+    //     // Sincroniza los modelos con la base de datos
+    //     await db.sync(); // Esto aplicará las asociaciones y creará las tablas si no existen
+    //     console.log('Modelos sincronizados con éxito');
+    // } catch (error) {
+    //     console.log(`Error al sincronizar los modelos: ${error}`);
+    // }
 
 })();
 console.log('puerto app')
